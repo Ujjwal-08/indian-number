@@ -12,7 +12,7 @@
     }
   },
   "bin": {
-    "indian-number": "./bin/indian-number.js"
+    "indian-number": "bin/indian-number.js"
   },
   "files": [
     "index.js",
