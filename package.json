@@ -1,0 +1,73 @@
+{
+  "name": "indian-number",
+  "version": "1.0.0",
+  "description": "Indian number formatting (lakh, crore) and amounts in words in English and Hindi, with zero dependencies",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "bin": {
+    "indian-number": "./bin/indian-number.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "indian-number",
+    "lakh",
+    "crore",
+    "rupee",
+    "inr",
+    "number-to-words",
+    "currency-format",
+    "hindi",
+    "devanagari",
+    "cheque",
+    "invoice",
+    "india"
+  ],
+  "author": "Ujjwal Dadhich",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ujjwal-08/indian-number.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ujjwal-08/indian-number/issues"
+  },
+  "homepage": "https://github.com/Ujjwal-08/indian-number#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/github": "^12.0.6",
+    "@semantic-release/npm": "^13.1.5",
+    "@semantic-release/release-notes-generator": "^14.1.0",
+    "semantic-release": "^25.0.3"
+  },
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/cw/BABU_ISHU"
+    },
+    {
+      "type": "individual",
+      "url": "https://www.paypal.com/ncp/payment/SECBQ62TRZZ6Y"
+    }
+  ]
+}
